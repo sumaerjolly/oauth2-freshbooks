@@ -45,7 +45,7 @@ class Freshbooks extends AbstractProvider
 
   public function getDefaultScopes()
   {
-    return ['user:invoices:read'];
+    return ['user:profile:read'];
   }
 
   public function checkResponse(ResponseInterface $response, $data)
